@@ -1,0 +1,29 @@
+/* #food-one{
+    display: block;
+    border: 2px solid;
+    background-image: url('images/biryani.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+    width: 200px;
+}*/
+li{
+    list-style: none;
+} 
+ .main-para{
+   background-color: rgb(241, 238, 243);
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    color: black;
+ }
+ *{
+    font-family: 'Courier New', Courier, monospace;
+ }
+ body{
+    border: 1px solid mediumpurple;
+ }
+ .list{
+    display: flex;
+    gap: 130px;
+ }
