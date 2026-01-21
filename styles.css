@@ -48,7 +48,7 @@ li{
    height: 50px;
    border-radius: 50%;
    background-color: brown;
-   
+   animation: ball-move  6s ease-in-out  infinite alternate;
 }
 @keyframes rotate {
    from{
@@ -65,5 +65,14 @@ li{
    border-radius: 50%;
    background-color: greenyellow;
    border: 3px solid greenyellow;;
-   animation: rotate 4s ease-in-out infinite;
+   animation: rotate 6s ease-in-out infinite;
+}
+@keyframes ball-move {
+   from{
+      transform: translateX(450px);
+      transition: 6s transform ease-in alternate;
+   }
+   to{
+      right: auto;
+   }
 }
