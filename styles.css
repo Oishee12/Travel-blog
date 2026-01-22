@@ -69,3 +69,11 @@ li{
       right: auto;
    }
 }
+.btn-div{
+   border: 3px solid brown;
+}
+.new-html-file{
+   padding: 20px 50px;
+   font-size: 2rem;
+   font-weight: 700;
+}
