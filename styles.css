@@ -69,17 +69,20 @@ li{
       right: auto;
    }
 }
-.btn-div{
-   border: 3px solid brown;
-   padding: 20px;
-}
 .new-html-file{
    padding: 20px 50px;
    font-size: 2rem;
    font-weight: 700;
+   position: absolute;
+   top: 60%;
+   right: 10%;
+}
+
+.new-html-file a{
+   color: black;
 }
 .new-html-file:hover{
    cursor: pointer;
-   background-color: rgba(127, 9, 9, 0.953);
+   background-color: rgba(127, 9, 9, 0.865);
    color: white;
 }
