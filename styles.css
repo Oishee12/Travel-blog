@@ -80,9 +80,10 @@ li{
 
 .new-html-file a{
    color: black;
+   cursor: pointer;
 }
 .new-html-file:hover{
-   cursor: pointer;
+   
    background-color: rgba(127, 9, 9, 0.865);
    color: white;
 }
